@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Carousel Styling */
+.carousel-section {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features-section {
+    padding: 60px 0;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card .icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.feature-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.feature-card p {
+    color: #666;
+}

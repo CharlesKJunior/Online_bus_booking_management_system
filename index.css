@@ -1,0 +1,48 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Navbar */
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  .navbar-nav .nav-link {
+    font-weight: 500;
+  }
+  
+  /* Table */
+  .table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .table th {
+    background: #007BFF;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+  }
+  /* Carousel Custom Height */
+#heroCarousel {
+    max-height: 450px; /* Adjust height to ensure visibility of trips */
+    overflow: hidden;
+  }
+  
+  #heroCarousel .carousel-item img {
+    object-fit: cover;
+    height: 450px; /* Consistent height for all images */
+    width: 100%;
+  }
+  
+  /* Carousel Caption Styling */
+  #heroCarousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 15px;
+    border-radius: 10px;
+  }
+  

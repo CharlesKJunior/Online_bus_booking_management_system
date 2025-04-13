@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Align "Dapo Travels" to the left and links to the right */
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Pushes the navigation links to the right */
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Receipt Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Receipt Box */
+.receipt {
+    background: #ffffff;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    border-bottom: 2px solid #007bff;
+}
+
+.header h2 {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+    text-align: left;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.section h4 {
+    font-size: 18px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* QR Code Section */
+.qr-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 15px;
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Print Styles */
+@media print {
+    .btn {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+}

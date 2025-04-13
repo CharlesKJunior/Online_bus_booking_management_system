@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.table th {
+    background: #343a40;
+    color: white;
+}
+
+.resolved {
+    text-decoration: line-through;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #343a40;
+    color: white;
+    margin-top: 20px;
+}

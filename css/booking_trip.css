@@ -1,0 +1,159 @@
+/* booking_trip.css */
+
+/* General reset and box-sizing */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('bg6.avif'); /* Update your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed */
+    min-height: 100vh; /* Ensure body covers full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content styling */
+main {
+    max-width: 960px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85); /* Slight opacity to create contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a little shadow for depth */
+}
+
+/* Page title */
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.card i {
+    color: #28a745;
+    margin-right: 10px;
+}
+
+/* Form styling */
+form .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+form button {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .card p {
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .form-control {
+        font-size: 0.95rem;
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+}
