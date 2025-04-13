@@ -30,5 +30,5 @@ A complete web-based platform for booking and managing bus tickets. Built using 
 1. **Clone or Download the Repository**
 
    ```bash
-   git clone https://github.com/CharlesKJunior/online_taxi_booking_management_system.git
+   git clone https://github.com/CharlesKJunior/online_bus_booking_management_system.git
 
